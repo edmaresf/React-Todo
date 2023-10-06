@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mares/VS_CODE/react_todo/build/static/css/main.bf548ae6.css",
+    "main.js": "/Mares/VS_CODE/react_todo/build/static/js/main.1ad764b8.js",
+    "index.html": "/Mares/VS_CODE/react_todo/build/index.html",
+    "static/media/delete.svg": "/Mares/VS_CODE/react_todo/build/static/media/delete.253668d653616a4e68d22c69ee5da594.svg",
+    "static/media/check.svg": "/Mares/VS_CODE/react_todo/build/static/media/check.23109d14544b9bb9b3d5d4e65ea13701.svg",
+    "main.bf548ae6.css.map": "/Mares/VS_CODE/react_todo/build/static/css/main.bf548ae6.css.map",
+    "main.1ad764b8.js.map": "/Mares/VS_CODE/react_todo/build/static/js/main.1ad764b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf548ae6.css",
+    "static/js/main.1ad764b8.js"
+  ]
+}
