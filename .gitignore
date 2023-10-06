@@ -15,6 +15,9 @@ psd
 thumb
 sketch
 
+# production
+/build
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
