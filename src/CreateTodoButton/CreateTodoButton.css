@@ -1,0 +1,51 @@
+.CreateTodoButton {
+    background-color: #ff735c;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    cursor: pointer;
+    font-size: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: calc(25% - 15vw);
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 30vw;
+    z-index: 1;
+    border-radius: 25px;   
+  }
+  
+  .CreateTodoButton:hover {
+    animation-name: ampliar;
+    animation-duration: 1.2s; 
+  }
+
+  @keyframes ampliar {
+    0%, 50%, 100%{
+     transform:scale(1)
+    }
+    10%, 30%{
+     transform: scale(1.1)
+    }
+    20%, 40%{
+     transform: scale(1)
+    }
+  }
+
+  .CreateTodoButton p {
+    font-size: 10px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .CreateTodoButton {
+      width: 100vw;
+      height: 45px;
+      font-size: 50px;
+      left: 0;
+      bottom: 0;
+      border-radius: 0;
+    }
+  }

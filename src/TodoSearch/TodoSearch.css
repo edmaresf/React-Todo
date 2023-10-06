@@ -1,0 +1,33 @@
+.TodoSearch {
+    border-radius: 2px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin: 20px 24px 0;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    box-shadow: 0px 5px 5px rgba(32, 35, 41, 0.25);
+  }
+  
+  .TodoSearch::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 400;
+  }
+  
+  .TodoSearch:focus {
+    border: 2px solid #ff735c;
+  }
+  .TodoSearch:focus-visible {
+    outline: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    .TodoSearch {
+      font-size: 15px;
+      margin: 0 24px 0;
+      height: 44px;  
+    }
+  }
