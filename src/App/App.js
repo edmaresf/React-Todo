@@ -1,5 +1,4 @@
 import React from 'react';
-import { TodoCounter } from '../TodoCounter';
 import { TodoSearch } from '../TodoSearch';
 import { TodoList } from '../TodoList';
 import { TodoItem } from '../TodoItem';
@@ -24,7 +23,6 @@ function AppUI() {
   
   return (
     <>
-      <TodoCounter />
       <TodoSearch />
 
       <TodoList>
@@ -36,7 +34,7 @@ function AppUI() {
           </>
         )}
         {error && <TodoError/>}
-        {(!loading && searchedTodos.length === 0) && <EmptyTodos />}
+        {(!loading && !searchedTodos.length) && <EmptyTodos />}
 
         {searchedTodos.map(todo => (
           <TodoItem
@@ -61,5 +59,6 @@ function AppUI() {
     </>
   );
 }
+
 
 export { AppUI };

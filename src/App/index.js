@@ -1,6 +1,7 @@
 import React from 'react';
 import { TodoProvider } from '../TodoContext';
 import { AppUI } from './App';
+import { PBar } from '../ProgressBar';
 
 function App() {
   return (
@@ -10,4 +11,13 @@ function App() {
   );
 }
 
+function PB() {
+  return (
+    <TodoProvider>
+      <PBar />
+    </TodoProvider>
+  );
+}
+
 export default App;
+export { PB };

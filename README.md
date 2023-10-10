@@ -2,7 +2,7 @@
 
 Encontrarás algunas **modificaciones al contenido original**, tanto en funcionalidad como en estilo, dichas modificaciones persiguen los siguientes objetivos:
 
-- **Adicionar funcionalidad** a la aplicación.
+- **Robustecer y mejorar la utilidad** de la aplicación.
 - Mejorar la **experiencia de usuario**
 - Crear una **representación visual** del avance
 

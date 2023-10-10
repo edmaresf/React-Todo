@@ -27,7 +27,7 @@
   @media screen and (max-width: 992px) {
     .TodoSearch {
       font-size: 15px;
-      margin: 0 24px 0;
+      margin: 10px 24px 0;
       height: 44px;  
     }
   }
